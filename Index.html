@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--DOCTYPE tells us that which type of HTML version-->
+<!--Syntax that is showed in red means we can improve it by CSS-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--UTF-8 is a standard encoding set with universal symbols and scripts of all languages
+        otherwise our website will be rendered incorrectly-->
+    <!--There are meta tags to give info about your website to the browser.
+        There are different types of tags like description, name, viewpoint etc.-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanidhya's Personal Website</title>
+</head>
+
+<body>
+    <!--We can use table to align or create a proper layout-->
+    <table>
+        <tr>
+            <td><img src="https://newprojects.99acres.com/projects/sachani_developers_and_shree_ganesh_builders/sanidhya/lunu068j.jpg" alt="Sanidhya meaning"></td>
+            <!--alt comes if image can't be loaded also you can add link of your image if it exists on internet.
+                There are many attributes related to element img of HTML.
+                Also you can take photo from your device by putting its path from directory-->
+
+            <td>
+            <h1>Sanidhya Manglunia</h1>
+            <p><em>Student at <strong><a href="https://www.lnmiit.ac.in/">LNMIIT</a></strong>.</em></p>
+            <!--Use em tag to make text italic cause it gives more meaning to it rather than <i> tag
+                and similarly to make text bold use strong tag rather than <b> tag-->
+            <p>My Branch is ECE and I like to code.</p></td>
+
+        </tr>
+    </table>
+
+    <hr size="3" noshade>
+
+    <h3>Education Background</h3>
+
+    <ul>
+        <li>Modi Public School</li>
+        <li>Joined <a href="https://www.nmsindia.org/?gclid=CjwKCAjwq-WgBhBMEiwAzKSH6KAImxxz7PgRqKPHZYy7Dpk8BMC50PgmhvXLISw9Y1CCzKf-0GL04RoCZrYQAvD_BwE">Neerja Modi School</a> for high schooling</li>
+        <li>Coaching from ALLEN</li>
+        <li>Currently studying in LNMIIT</li>
+    </ul>
+
+    <hr size="3" noshade>
+
+    <h3>Hobbies</h3>
+
+    <ol>
+        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fsinging&psig=AOvVaw1j3PlXVaOgbN_YM5Sk4YXN&ust=1679492197889000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIidkJWS7f0CFQAAAAAdAAAAABAE">Singing</a></li>
+        <li>Dancing</li>
+        <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Ftopics%2Fcoding-5877&psig=AOvVaw0dCuPOLxlwuf7OF0XhE0LC&ust=1679492262303000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCODEtbSS7f0CFQAAAAAdAAAAABAI">Coding</a></li>
+    </ol>
+    <!--Types of ordered list use <ol type='i' to use roman numbers and if you want to start numbering
+        from a number than <ol start='n'>.
+        There are different types of unordered list as well-->
+    <!--Anchor tang is used to link create HyperLink or link two pages 
+        <a href="Link Address">Name with will take you to that link</a>
+        where href is hyper reference. You can also link two pages made by you-->
+    
+    <hr size="3" noshade>
+    <h3>Education Experience</h3>
+
+    <table border="1">
+        <thead><!--using th is enoough but using head help us to differntiate b/w header and body-->
+            <th>Year of Joining</th>
+            <th> School Name</th>
+        </thead>
+        <tbody>
+            <tr><!--Tr tag is for table row and td for table data (no. of col)-->
+                <td>2007</td>
+                <td> RDS</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td> MPS</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td> NMS</td>
+            </tr>
+        </tbody><!--There is also table footer. Table head is by default bold-->
+    </table><!--There are attributes for border color of cell or row and many more but prevent using it ccause we can style it using CSS-->
+    <br>
+    <a href="Contact.html">Contact Me</a>
+</body>
+
+</html>
